@@ -1,0 +1,28 @@
+.htaccess
+/config.php
+admin/config.php
+
+!index.html
+
+download/
+image/data/
+image/cache/
+system/cache/
+system/logs/
+
+system/storage/
+
+# vQmod log files
+vqmod/logs/*
+# vQmod cache files
+vqmod/vqcache/*
+vqmod/checked.cache
+vqmod/mods.cache
+
+# IDE Project files
+/upload/.idea/*
+/.idea/*
+/.DS_Store
+/.cache
+/.php-cs-fixer.cache
+.vscode
